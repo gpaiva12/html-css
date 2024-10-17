@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+
+
+h1#principal {
+text-align: center;  
+background-color: rgb(0, 221, 18);
+color: white;
+}
+body {
+    background-color: rgb(165, 252, 172);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(0, 221, 18);
+}
+
+h2 {
+    color: rgb(20, 112, 28);
+}
+
+.tum {
+    color: rgb(20, 112, 28);
+}
+
+.tdois {
+    color: rgb(103, 112, 20);
+}
+
+.ttres {
+    color: rgb(112, 20, 20);
+}
+
+.destaque {
+    background-color: rgb(241, 241, 70);
+}
