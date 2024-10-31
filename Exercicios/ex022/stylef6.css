@@ -3,11 +3,21 @@
 
 body {
     height: 100vh;
-    background-color: black;
-    background-image: url(imagens/wallpaper002.jpg);
-    background-position: center center;
-    background-repeat: repeat-y;
+    /*  background-color: black;
+        background-image: url(imagens/wallpaper002.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed; */
+
+
+    /* Shorthand em background
+    A ordem é color > image > position > repeat > [size] > attachment.
+    No size ainda nao esta funcionando nos navegadores, então ele não ira aplicar. */
+
+    background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
     background-size: cover;
+
 }
 
 main {
